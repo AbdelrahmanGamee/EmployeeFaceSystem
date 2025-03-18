@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Live Video Feed */
+#video-stream {
+  width: 100%;
+  border: 3px solid #343a40;
+  border-radius: 5px;
+}
+
+/* Flash Messages */
+#flash-message {
+  transition: all 0.5s ease-in-out;
+}
+
+/* Form Styling */
+.form-control {
+  border-radius: 5px;
+}
+
+/* Attendance Table */
+.table {
+  background-color: #fff;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+}

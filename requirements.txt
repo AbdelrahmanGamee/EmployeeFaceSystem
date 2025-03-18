@@ -1,0 +1,17 @@
+opencv-python
+face-recognition
+numpy
+pandas
+Pillow
+Flask
+werkzeug
+pyinstaller
+mediapipe
+cryptography
+cryptography.fernet
+passlib
+pyautogui
+pytest
+openpyxl
+APScheduler
+schedule

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h2>Live Camera Feed</h2>
+        <img id="video-stream" src="{{ url_for('video_feed') }}" class="img-fluid border" alt="Live Feed">
+    </div>
+    <div class="col-md-4">
+        <h2>Notifications</h2>
+        <ul id="notifications" class="list-group"></ul>
+    </div>
+</div>
+{% endblock %}
